@@ -12,7 +12,7 @@ test('Token test', async ({ page }) => {
 
 
     // llamo la api por post 
-     const respuesta  = await requerimiento.post('https://cursotesting.com.ar:5000/token', 
+     const respuesta  = await requerimiento.post('https://cursotesting.com.ar:3000/token', 
       {data: pidoToken, Headers:{'Content-type':'application/josn'},})
 
     /// lo que recibo lo convierto en Json  
